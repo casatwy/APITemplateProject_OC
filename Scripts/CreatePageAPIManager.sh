@@ -3,7 +3,7 @@
 Cyan='\033[0;36m'
 Default='\033[0;m'
 
-groupPath="../CTAPI_Marvel/CTAPI_Marvel/APIManagers"
+groupPath="../APITemplateProject_OC/APITemplateProject_OC/APIManagers"
 group=""
 fileName=""
 methodName=""
