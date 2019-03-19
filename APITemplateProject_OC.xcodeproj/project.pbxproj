@@ -15,6 +15,7 @@
 		4A8E7868223FDCA8002C0806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8E7867223FDCA8002C0806 /* main.m */; };
 		4A8E7875223FE894002C0806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8E7873223FE893002C0806 /* ViewController.m */; };
 		4A8E787A223FE8E2002C0806 /* __ServiceName__.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8E7879223FE8E2002C0806 /* __ServiceName__.m */; };
+		4A8E787D2240957F002C0806 /* __TargetServiceName__.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8E787C2240957F002C0806 /* __TargetServiceName__.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		4A8E7874223FE893002C0806 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4A8E7878223FE8E2002C0806 /* __ServiceName__.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = __ServiceName__.h; sourceTree = "<group>"; };
 		4A8E7879223FE8E2002C0806 /* __ServiceName__.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __ServiceName__.m; sourceTree = "<group>"; };
+		4A8E787B2240957F002C0806 /* __TargetServiceName__.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = __TargetServiceName__.h; sourceTree = "<group>"; };
+		4A8E787C2240957F002C0806 /* __TargetServiceName__.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __TargetServiceName__.m; sourceTree = "<group>"; };
 		6BE93E48D523353FC5D1D007 /* libPods-APITemplateProject_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APITemplateProject_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,8 +104,8 @@
 		4A8E7872223FE893002C0806 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4A8E7873223FE893002C0806 /* ViewController.m */,
 				4A8E7874223FE893002C0806 /* ViewController.h */,
+				4A8E7873223FE893002C0806 /* ViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -119,6 +122,8 @@
 			children = (
 				4A8E7878223FE8E2002C0806 /* __ServiceName__.h */,
 				4A8E7879223FE8E2002C0806 /* __ServiceName__.m */,
+				4A8E787B2240957F002C0806 /* __TargetServiceName__.h */,
+				4A8E787C2240957F002C0806 /* __TargetServiceName__.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -129,7 +134,6 @@
 				273D7BC7637CF1F85455A7AD /* Pods-APITemplateProject_OC.debug.xcconfig */,
 				000B70B04D61C98E8690A48A /* Pods-APITemplateProject_OC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -241,6 +245,7 @@
 				4A8E7868223FDCA8002C0806 /* main.m in Sources */,
 				4A8E787A223FE8E2002C0806 /* __ServiceName__.m in Sources */,
 				4A8E785A223FDCA8002C0806 /* AppDelegate.m in Sources */,
+				4A8E787D2240957F002C0806 /* __TargetServiceName__.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

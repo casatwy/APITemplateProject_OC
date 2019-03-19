@@ -9,9 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <CTNetworking/CTNetworking.h>
 
+extern NSString * const kServiceIdentifier__ServiceName__;
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface __ServiceName__ : ctservicepro
+@interface __ServiceName__ : NSObject <CTServiceProtocol>
+
+@property (nonatomic, assign) CTServiceAPIEnvironment apiEnvironment;
 
 @end
 
